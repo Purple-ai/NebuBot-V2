@@ -5,7 +5,7 @@ const client = new Discord.Client();
 const bot = new Client();
 var prefix = "="
 const PREFIX = '=';
-client.login("NzE0ODQ1MzcxMTQ2MzA1NTU5.Xs0u3Q.gB2-IL3PcfuPtsCQmjipbQZ-rPY"); 
+client.login("YourToken"); 
 client.once('ready', () => {
     console.log(`Connecté en tant que ${client.user.tag}!`);
   });
